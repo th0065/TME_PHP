@@ -1,0 +1,67 @@
+
+
+#global{z-index: 1; position: absolute; background-color: white; width: 100%; height: 70%; padding-top: 30px;padding-left: 30px; padding-right: 8px; }
+
+#tete{background-color: lightblue; width: 100%; height: 20%;}
+#connexion{  font-size:40px; padding: 50px 160px 10px 5px; font-family: cursive; text-align: center;  }
+#inscription{  font-size:40px; padding: 50px 160px 10px 5px; font-family: cursive; text-align: center;  }
+		
+		#table{border: solid 4px black; padding: 5px 50px 50px 50px ; margin: 1px 400px 400px 200px; width: 500px; height: 500px; text-align: center; }
+#mdp{font-size:55px; padding: 50px 160px 10px 5px; font-family: cursive; text-align: center;  }
+.button{box-shadow: 3px 2px black; }
+.a{text-decoration:none;}
+
+nav{background-color: lightblue; border: solid 3px black;}
+
+li {float: left;}
+#pied{background-color: grey; width: 100%; height: 10%; text-align: right; border: solid 3px black;}
+.photo{ width: 140px; height: 200px; }
+.input{height: 200px;border: solid 3px black;width: 100%;}
+.input1{border: solid 3px black;width: 60%;}
+.input4{border: solid 3px black;width: 55%;}
+.input5{border-top: solid 3px black;border-bottom: solid 3px black;border-left: none;border-right: solid 3px black;}
+.button1{border-top: solid 3px black;border-bottom: solid 3px black;border-left: solid 3px black;border-right: none;}
+.info1{border: solid 3px black; width: 100%;}
+.infos{padding-top: 70px;}
+#partie1{width: 250px;float: left;}
+
+.tr{border-top:none;border-bottom:none;}
+.tablemarche{z-index: 1; border-collapse: separate; height: 500px; text-align: center; width: 100%;border-spacing: 30px;}
+#form{border: solid 2px white; text-align: center;}
+#partie2{margin-left: 250px;  }
+#tete{background-color: lightblue; width: 100%; height: 20%;}
+#td1{ background-image:url(beignets.jpg); background-position: center top; background-size: 190px 190px; background-repeat: no-repeat;border: solid 3px black;width: 200px; height: 200px;}
+#td2{ background-image:url(crepes.jpg); background-position: center top; background-size: 190px 190px; background-repeat: no-repeat;border: solid 3px black;width: 200px; height: 200px;}
+#td3{ background-image:url(miel.jpg);  background-position: center top;background-size: 190px 190px; background-repeat: no-repeat;border: solid 3px black;width: 200px; height: 200px;}
+#td4{ background-image:url(lait.jpg); background-position: center top; background-size: 190px 190px; background-repeat: no-repeat;border: solid 3px black;width: 200px; height: 200px;}
+#td5{ background-image:url(nouilles.jpg); background-position: center top;background-size: 190px 190px; background-repeat: no-repeat;border: solid 3px black;width: 200px; height: 200px; }
+#td6{ background-image:url(souchi.jpg);  background-position:center top;background-size: 190px 190px; background-repeat: no-repeat;border: solid 3px black;width: 200px; height: 200px;}
+#td7{ background-image:url(pain_cereale.jpg); background-position:center top; background-size: 190px 190px; background-repeat: no-repeat;border: solid 3px black;width: 200px; height: 200px;}
+#td8{ background-image:url(gateau.jpg); background-position:center top;background-size: 190px 190px; background-repeat: no-repeat;border: solid 3px black;width: 200px; height: 200px; }
+.div1{width: 80%;height: 80%; }
+.div2{width: 10%;float: left;height: 10% ;}
+.div3{float: right;width: 10%; height: 10%;}
+#tableproduit{border: solid 4px black;border-radius: 25% 10%; width: 90%;height: 450px; margin-left: 9%; margin-bottom:20px; margin-right: 20px;}
+.col{border-right: solid 3px black; }
+th{background-color: grey;}
+.lin1{background-color: lightgrey;}
+
+#fus{ box-shadow: 3px 2px black; text-align: center;}
+#ajp{text-align: center; border: solid 3px black;}
+.search{z-index: 1; margin-top: 8px; margin-bottom: 8px; text-align: right;}
+.trash{float: left;}
+.pencil{float: right;}
+.di{ z-index: 1; display: none; position: relative;  border: solid 2px black; padding: 1px 10px 10px 5px ; margin: 10px 400px 100px 400px; width: 500px; height: 500px; text-align: center;border-collapse: separate; border-spacing: 40px;border-radius: 25% 10%; }
+#info_perso{  font-size:40px;  font-family: cursive; text-align: center; }
+.input2{height: 150px;border: solid 3px black;width: 80%;}
+.input3{border: solid 3px black;width: 80%;}
+
+#click
+{
+background-color:white;border: none;border:0px;
+text-decoration : none;width:20px;height:30px;
+}
+
+#click:checked ~ .di{ display:inline-block; z-index: 10; position: absolute; top: 50px; bottom: 50px; left: 50px; right: 50px;opacity: 5; background-color: white; }
+#click{display: none;}
+#click:checked ~ .global{ position: relative; z-index: 1; opacity: 1; }

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+    font-family: 'Montserrat', serif;
+    
+}
+
+
+.global{
+    background-image: url("bac.jpg");
+    background-size: contain;
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 23px;
+  margin: 40px auto;
+  margin-top: 40px;
+  padding: 30px;
+  margin-left: 35px;
+  
+}
+
+
+.gril {
+  align-content: space-between;
+  width: 300px;
+  height: 300px;
+  
+}
+
+.items img{
+    width: 250px;
+    height: 160px;
+    
+}
+.items-button{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    color: rgb(117, 102, 102);
+}
+
+.description{
+    margin: 10px auto;
+}
+
+.description a{
+    text-decoration: none;
+    color: rgb(224, 231, 224);
+    cursor: pointer;
+}
+
+.name{
+    color: rgb(170, 179, 200);
+}
+
+.items-button i{
+    font-size: 30px;
+    color: #fff;
+    
+}
+
+
+
+
+
